@@ -1,0 +1,25 @@
+16:31:00.766[36m [Client INFO] Starting WhatsApp client...[0m
+16:31:01.580[36m [Client INFO] Successfully authenticated[0m
+16:31:02.050[36m [Client INFO] Connected to WhatsApp[0m
+[ERROR] 2026-02-21T16:31:02+05:00 SessionCipher.go:310 ▶  Unable to get or create message keys: received message with old counter (index: 2, count: 1)
+16:31:02.196[33m [Client WARN] Ignoring message A5AEBC8ECE5CEBAB16DDBDA8BDE19F64 from 207532853330154@lid in 120363422546259260@g.us: failed to decrypt prekey message: failed to get or create message keys: received message with old counter (index: 2, count: 1)[0m
+16:31:02.216[36m [Client INFO] Using existing chat name for 120363422546259260@g.us: Sunday Evening AI/Spec-Driven Online Hackathon[0m
+[2026-02-21 16:26:01] ← 207532853330154: [image: image_20260221_163102.jpg] 
+16:31:02.253[36m [Client INFO] Using existing chat name for 120363423928957089@g.us: The CoordiNators[0m
+16:31:02.265[36m [Client INFO] Using existing chat name for 120363423928957089@g.us: The CoordiNators[0m
+[2026-02-21 16:27:44] ← 196456132657220: I want to add the slc developers to a group.
+16:31:02.277[36m [Client INFO] Using existing chat name for 120363423928957089@g.us: The CoordiNators[0m
+[2026-02-21 16:27:52] ← 196456132657220: Do you guys agree
+16:31:02.305[36m [Client INFO] Using existing chat name for 120363404392625435@g.us: AI/Spec-Driven Online Hackathon[0m
+16:31:02.317[36m [Client INFO] Using existing chat name for 120363404392625435@g.us: AI/Spec-Driven Online Hackathon[0m
+[2026-02-21 16:30:14] ← 198711007297557: i used  twitter APIs. it looks ,a traditional / non agentic system , developed using claude code
+
+✓ Connected to WhatsApp! Type 'help' for commands.
+Starting REST API server on :8080...
+REST server is running. Press Ctrl+C to disconnect and exit.
+REST API server error: listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+16:31:18.782[36m [Client INFO] Using existing chat name for 120363404392625435@g.us: AI/Spec-Driven Online Hackathon[0m
+16:32:09.675[33m [Client WARN] Received stream end frame[0m
+16:32:09.675[36m [Client INFO] Got replaced stream error, sending StreamReplaced event[0m
+16:32:09.779[31m [Client/Socket ERROR] Error reading from websocket: failed to get reader: failed to read frame header: EOF[0m
+Disconnecting...
