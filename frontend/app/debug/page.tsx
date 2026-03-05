@@ -66,7 +66,7 @@ export default function DebugPage() {
           <h2 className="font-bold mb-4">Logs:</h2>
           <div className="space-y-2 max-h-96 overflow-auto">
             {logs.length === 0 ? (
-              <p className="text-zinc-500">No logs yet. Click "Test Backend" to start.</p>
+              <p className="text-zinc-500">No logs yet. Click &quot;Test Backend&quot; to start.</p>
             ) : (
               logs.map((log, i) => (
                 <div key={i} className="text-zinc-300 border-b border-zinc-700 pb-2">

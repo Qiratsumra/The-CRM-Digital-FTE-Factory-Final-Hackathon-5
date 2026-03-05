@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { getMetrics, lookupCustomer, MetricsResponse, CustomerLookupResponse } from "@/lib/api";
+import Link from "next/link";
 
 export default function AdminDashboard() {
   const [metrics, setMetrics] = useState<MetricsResponse | null>(null);
@@ -86,12 +87,12 @@ export default function AdminDashboard() {
               </div>
             </div>
             <nav className="flex gap-4">
-              <a href="/" className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100">
+              <Link href="/" className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100">
                 Home
-              </a>
-              <a href="/process" className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100">
+              </Link>
+              <Link href="/process" className="text-sm text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100">
                 Track Ticket
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
@@ -373,12 +374,12 @@ export default function AdminDashboard() {
                 {lookupResult.last_ticket_id && (
                   <div>
                     <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-1">Last Ticket ID</p>
-                    <a
+                    <Link
                       href={`/process?ticket=${lookupResult.last_ticket_id}`}
                       className="font-semibold text-blue-600 dark:text-blue-400 hover:underline font-mono text-sm"
                     >
                       {lookupResult.last_ticket_id.slice(0, 16)}...
-                    </a>
+                    </Link>
                   </div>
                 )}
               </div>
