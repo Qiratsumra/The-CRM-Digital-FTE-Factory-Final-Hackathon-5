@@ -93,18 +93,7 @@ Go to: **Render Dashboard** → **Your Backend Service** → **Environment** tab
 
 ```bash
 # ===== REQUIRED FOR EMAIL SENDING =====
-GMAIL_SENDER_EMAIL=sheikhqirat100@gmail.com
-GMAIL_SENDER_PASSWORD=bmuxfhntyvjbmhzn
-SUPPORT_TEAM_EMAIL=sheikhqirat100@gmail.com
 
-# ===== AI & DATABASE (should already be set) =====
-GEMINI_API_KEY=AIzaSyBeTn3oLWshQQn8098uyub0OGVNukplNb0
-GEMINI_MODEL=gemini-2.5-flash
-GEMINI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
-DATABASE_URL=postgresql://neondb_owner:npg_RDX7kKF4SsUr@ep-sparkling-band-ai3dxuro-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
-
-# ===== KAFKA (if using) =====
-KAFKA_BOOTSTRAP_SERVERS=localhost:9092
 
 # ===== WHATSAPP (optional - enable when bridge is ready) =====
 WHATSAPP_MCP_ENABLED=false
@@ -120,8 +109,6 @@ RATE_LIMIT_PER_MINUTE=60
 RATE_LIMIT_WEBFORM_PER_MINUTE=10
 
 # ===== ERROR MONITORING (optional) =====
-SENTRY_DSN=https://50b76f5d6fa35fff50b90e9a6bec3208@o4510934375727104.ingest.de.sentry.io/4510934377562192
-```
 
 **⚠️ Important**:
 - Remove ALL spaces from `GMAIL_SENDER_PASSWORD`
